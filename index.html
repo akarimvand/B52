@@ -79,10 +79,13 @@
             border-radius: 5px;
             margin-top: 20px;
             border: 1px solid #00ff00; /* حاشیه سبز */
-            font-size: 12px; /* فونت ریز */
-            overflow-y: auto;
-            max-height: 300px;
+            font-size: 10px; /* فونت ریز */
+            overflow-y: auto; /* اسکرول دستی */
+            max-height: 200px; /* ارتفاع ثابت */
             color: #ffff00; /* متن زرد */
+            font-family: monospace; /* فونت غیر بولد */
+            white-space: pre-wrap; /* متن‌ها به درستی شکسته شوند */
+            box-sizing: border-box; /* padding و border در ارتفاع لحاظ شوند */
         }
         .success {
             color: #ffff00; /* متن زرد برای موفقیت */
@@ -281,4 +284,4 @@
         });
     </script>
 </body>
-</html>
+    </html>
